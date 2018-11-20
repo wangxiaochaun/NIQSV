@@ -89,7 +89,7 @@ float model::niqsv(const cv::Mat input)
     {
         for (int j = 0; j < temp.cols; j++)
         {
-            MSE += b.at<float>(i, j) * sqrt(D.at<float>(i, j));
+            MSE += b.at<float>(i, j) * D.at<float>(i, j) * D.at<float>(i, j);
             denominator += b.at<float>(i, j);
         }
     }
