@@ -1,3 +1,5 @@
+% wangxc-2018-11-19
+
 path = 'D:\Dataset\IRCCyN_IVC_DIBR_Images\Images\';
 
 scores = load('score.txt');
